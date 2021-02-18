@@ -11,7 +11,7 @@
 
     <groupId>com.roy</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <packaging>pom</packaging>
 
@@ -245,7 +245,7 @@
                         </executions>
                         <configuration>
                             <!--                Exclude Lombok enhanced classes-->
-                            <excludePackageNames>guru.sfg.brewery.model.*:*.mapper.*:*.domain.*:*.mappers.*</excludePackageNames>
+                            <excludePackageNames>com.roy.*:*.mapper.*:*.domain.*:*.mappers.*</excludePackageNames>
                         </configuration>
                     </plugin>
                     <plugin>
