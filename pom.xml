@@ -11,7 +11,7 @@
 
     <groupId>com.roy</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -173,7 +173,7 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <executions>
@@ -198,7 +198,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 
@@ -248,7 +248,7 @@
                             <excludePackageNames>com.roy.*:*.mapper.*:*.domain.*:*.mappers.*</excludePackageNames>
                         </configuration>
                     </plugin>
-                    <!--<plugin>
+                    <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <version>1.5</version>
@@ -261,7 +261,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>-->
+                    </plugin>
                 </plugins>
             </build>
         </profile>
