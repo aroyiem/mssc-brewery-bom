@@ -11,7 +11,7 @@
 
     <groupId>com.roy</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <packaging>pom</packaging>
 
@@ -173,7 +173,7 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <executions>
@@ -190,15 +190,15 @@
                                 <requireJavaVersion>
                                     <version>11</version>
                                 </requireJavaVersion>
-                                <!--<requireReleaseDeps>
+                                <requireReleaseDeps>
                                     <onlyWhenRelease>true</onlyWhenRelease>
                                     <message>Release builds must not have an snapshot dependencies</message>
-                                </requireReleaseDeps>-->
+                                </requireReleaseDeps>
                             </rules>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
@@ -271,7 +271,7 @@
         <connection>scm:git:git@github.com:aroyiem/mssc-brewery-bom.git</connection>
         <developerConnection>scm:git:git@github.com:aroyiem/mssc-brewery-bom.git</developerConnection>
         <url>https://github.com/aroyiem/mssc-brewery-bom</url>
-        <tag>mssc-brewery-bom-1.0</tag>
+        <tag>mssc-brewery-bom-1.0.1</tag>
     </scm>
 
     <issueManagement>
